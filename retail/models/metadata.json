@@ -1,0 +1,24 @@
+{
+  "feature_names": [
+    "Category",
+    "Region",
+    "Inventory",
+    "Sales",
+    "Orders",
+    "Price",
+    "Discount",
+    "Weather",
+    "Promotion",
+    "Competitor Price",
+    "Seasonality",
+    "Price_Discount_Interaction",
+    "Sales_Promotion_Interaction"
+  ],
+  "target_name": "Demand",
+  "models": [
+    "SVR",
+    "DecisionTreeRegressor",
+    "KNeighborsRegressor"
+  ],
+  "saved_at": "2025-10-29T13:34:25.727293Z"
+}

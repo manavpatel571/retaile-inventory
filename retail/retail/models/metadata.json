@@ -1,0 +1,94 @@
+{
+  "feature_names": [
+    "Category",
+    "Region",
+    "Inventory",
+    "Sales",
+    "Orders",
+    "Price",
+    "Discount",
+    "Weather",
+    "Promotion",
+    "Competitor Price",
+    "Seasonality",
+    "Price_Discount_Interaction",
+    "Sales_Promotion_Interaction"
+  ],
+  "target_name": "Demand",
+  "saved_at": "2025-10-29T16:12:45.416105Z",
+  "models": [
+    "SVR",
+    "DecisionTreeRegressor",
+    "KNeighborsRegressor"
+  ],
+  "categorical_mappings": {
+    "Category": {
+      "values": [
+        "Clothing",
+        "Electronics",
+        "Furniture",
+        "Groceries",
+        "Toys"
+      ],
+      "encoded": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    "Region": {
+      "values": [
+        "East",
+        "North",
+        "South",
+        "West"
+      ],
+      "encoded": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "Weather": {
+      "values": [
+        "Cloudy",
+        "Rainy",
+        "Snowy",
+        "Sunny"
+      ],
+      "encoded": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "Seasonality": {
+      "values": [
+        "Autumn",
+        "Spring",
+        "Summer",
+        "Winter"
+      ],
+      "encoded": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "Promotion": {
+      "values": [
+        "No",
+        "Yes"
+      ],
+      "encoded": [
+        0,
+        1
+      ]
+    }
+  }
+}
